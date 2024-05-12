@@ -1,0 +1,11 @@
+{
+    "manifest_version": 3,
+    "name": "Mode Lune YouTube",
+    "version": "1.0",
+    "permissions": ["activeTab", "scripting"],
+    "content_scripts": [{
+      "matches": ["*://*.youtube.com/*"],
+      "js": ["content.js"]
+    }]
+  }
+  
